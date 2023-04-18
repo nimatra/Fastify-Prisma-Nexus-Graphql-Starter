@@ -1,4 +1,11 @@
-# 🏎️ The Ultimate High-Performance TypeScript Server Starter
+# The Ultimate High-Performance TypeScript Server Starter 🏎️ 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node.js-%3E%3D%2019.6.1-brightgreen.svg)](https://nodejs.org/)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nimatra/Fastify-Prisma-Nexus-Jest-Starter/Run%20Tests%20for%20Modified%20Files)](https://github.com/nimatra/Fastify-Prisma-Nexus-Jest-Starter/actions)
+[![Test Coverage](https://img.shields.io/codecov/c/github/nimatra/Fastify-Prisma-Nexus-Jest-Starter/main)](https://codecov.io/gh/nimatra/Fastify-Prisma-Nexus-Jest-Starter)
+[![GitHub Stars](https://img.shields.io/github/stars/nimatra/Fastify-Prisma-Nexus-Jest-Starter)](https://github.com/nimatra/Fastify-Prisma-Nexus-Jest-Starter/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/nimatra/Fastify-Prisma-Nexus-Jest-Starter)](https://github.com/nimatra/Fastify-Prisma-Nexus-Jest-Starter/network/members)
+
 
 🚀 Welcome to the Fastify-Prisma-Nexus-GraphQL-Jest Boilerplate! 🎉
 
