@@ -81,7 +81,7 @@ To run the tests, simply execute the `test` or `test:all` script. 🚦
 Every test run will create a new test database and seed the `test/seed.ts` data into the database. It's recommended to use the Docker-based database. 🐳
 
 
-## 📊 Test Coverage 📊
+📊 Test Coverage 📊
 
 Keep track of your project's test coverage with Jest's built-in coverage reporting. The boilerplate is pre-configured to generate coverage reports when running the tests. You can view the coverage report in the `coverage` directory after running the tests. 📈
 
