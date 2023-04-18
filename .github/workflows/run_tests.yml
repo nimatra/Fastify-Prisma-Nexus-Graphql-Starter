@@ -50,3 +50,4 @@ jobs:
           TEST_DB_NAME: testdb
           TEST_DB_HOST: localhost
           TEST_DB_PORT: 5432
+      
