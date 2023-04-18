@@ -4,7 +4,6 @@ import {
     FastifyReply,
     FastifyRequest,
 } from 'fastify';
-import pino from 'pino';
 import { schema } from './schema';
 import { Context } from './context'
 import { getUser } from './utils/userHelpers';
