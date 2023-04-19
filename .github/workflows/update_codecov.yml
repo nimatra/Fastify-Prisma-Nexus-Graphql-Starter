@@ -26,24 +26,24 @@ jobs:
         --health-timeout 5s
         --health-retries 5
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 19
-          cache: 'yarn'
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 19
+        cache: 'yarn'
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
 
-      - name: Run Jest tests
-        run: yarn test
+    - name: Run Jest tests
+      run: yarn test
 
-      - name: Generate coverage report
-        run: yarn test --coverage
+    - name: Generate coverage report
+      run: yarn test --coverage
 
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
