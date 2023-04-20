@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1681990511710" clover="3.2.0">
+  <project timestamp="1681990511710" name="All files">
+    <metrics statements="44" coveredstatements="30" conditionals="8" coveredconditionals="6" methods="10" coveredmethods="6" elements="62" coveredelements="42" complexity="0" loc="44" ncloc="44" packages="2" files="3" classes="3"/>
+    <package name="src.utils">
+      <metrics statements="10" coveredstatements="10" conditionals="7" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="logger.js" path="/Users/nima/Documents/Github/nimatra/prismifyQL/dist/src/utils/logger.js">
+        <metrics statements="10" coveredstatements="10" conditionals="7" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="2" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="18" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests">
+      <metrics statements="34" coveredstatements="20" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <file name="base.js" path="/Users/nima/Documents/Github/nimatra/prismifyQL/dist/tests/base.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="seed.js" path="/Users/nima/Documents/Github/nimatra/prismifyQL/dist/tests/seed.js">
+        <metrics statements="26" coveredstatements="12" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="143" count="3" type="stmt"/>
+        <line num="170" count="3" type="stmt"/>
+        <line num="192" count="15" type="stmt"/>
+        <line num="198" count="15" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

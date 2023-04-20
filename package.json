@@ -19,7 +19,7 @@
     "start": "node dist/src/index",
     "generate:secret": "ts-node src/secretGenerator",
     "test": "yarn -s build && jest --detectOpenHandles --coverage --runTestsByPath $npm_config_file",
-    "test:all": "yarn -s build && jest --detectOpenHandles --coverage"
+    "test:all": "yarn -s build && jest --detectOpenHandles --coverage ./dist"
   },
   "dependencies": {
     "@fastify/cookie": "^8.3.0",
@@ -29,7 +29,7 @@
     "@fastify/swagger": "^8.3.1",
     "@godaddy/terminus": "^4.11.2",
     "@nexus/schema": "^0.20.1",
-    "@prisma/client": "^4.12.0",
+    "@prisma/client": "^4.13.0",
     "@sentry/node": "7.39.0",
     "@sentry/tracing": "7.39.0",
     "@types/pg": "^8.6.6",
@@ -68,7 +68,7 @@
     "mercurius-integration-testing": "^8.0.0",
     "pg": "^8.10.0",
     "pino-pretty": "^10.0.0",
-    "prisma": "^4.12.0",
+    "prisma": "^4.13.0",
     "prisma-erd-generator": "^1.5.4",
     "tap": "^16.3.4",
     "ts-jest": "29.1.0",
