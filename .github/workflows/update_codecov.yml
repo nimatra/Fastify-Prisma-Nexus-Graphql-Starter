@@ -41,9 +41,12 @@ jobs:
 
       - name: Run Jest tests
         run: yarn test
-
-      - name: Generate coverage report
-        run: yarn test --coverage
+        env:
+          TEST_DB_USERNAME: postgres
+          TEST_DB_PASSWORD: changeme
+          TEST_DB_NAME: testdb
+          TEST_DB_HOST: localhost
+          TEST_DB_PORT: 5432
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
