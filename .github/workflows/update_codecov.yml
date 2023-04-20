@@ -56,6 +56,7 @@ jobs:
           TEST_DB_NAME: testdb
           TEST_DB_HOST: localhost
           TEST_DB_PORT: 5432
+          GENERATE_SOURCEMAP: false
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3

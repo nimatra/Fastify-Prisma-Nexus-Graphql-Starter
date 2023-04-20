@@ -33,6 +33,15 @@ jobs:
           node-version: 19
           cache: 'yarn'
 
+      # Cache libraries
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: .yarn/cache
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
@@ -50,4 +59,4 @@ jobs:
           TEST_DB_NAME: testdb
           TEST_DB_HOST: localhost
           TEST_DB_PORT: 5432
-      
+          GENERATE_SOURCEMAP: false
